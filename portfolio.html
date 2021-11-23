@@ -4,35 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-   <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" /> -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <link href="portfolio.css" rel="stylesheet" type="text/css" />
     <script defer src="portfolio.js"></script>
     <title>Aimae Wood</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <p>about</p>
-            <p>projects</p>
-            <p>contact</p>
-        </nav>
-    </header>
+<body class="font-sans lowercase">
+    <nav class="w-screen h-12 fixed flex justify-center top-0 bg-gray-300 opacity-80">
+        <p class="p-3 text-xl"><a href="#about-me">about</a></p>
+        <p class="p-3 text-xl"><a href="#my-projects">projects</a></p>
+        <p class="p-3 text-xl"><a href="#contact">contact</a></p>
+    </nav>
 
-    <main>
-        <section>
+    <header>
+        <section class="bg-white flex justify-evenly items-center mt-40 bg-opacity-30">
             <div>
-                <h1>aimae wood</h1>
-                <h3>web developer</h3>
+                <img class="rounded-full" src="images/awood.jpg" height="300" width="300" alt="photo of aimae">
             </div>
-            <div>
-                <img src="images/awood.jpg" height="100" width="100" alt="photo of aimae">
+            <div class="text-right font-bold"> <!-- class="bg-gray-300 rounded-3xl opacity-60 p-5"> -->
+                <p class="text-9xl">Aimae Wood</p>
+                <p class="text-6xl">Frontend Developer</p>
             </div>
         </section>
-        <section>
+    </header>
+
+    <main class="m-28">
+        <section id="about-me" class="bg-gray-300 rounded-3xl bg-opacity-50 p-5 flex mb-8">
             <div>
-                <h4>about me</h4>
-                <p>Pokem ipsum dolor sit amet Exeggutor Kecleon Wing Attack Doduo Red Unown. Sunt in culpa Drilbur Calcium Hoenn Shieldon Wynaut Charizard. Growl Venonat Scolipede Espeon Charizard Barboach Hidden Machine. Duis aute irure dolor in reprehenderit in voluptate they're comfy and easy to wear Onix what kind of Pokemon are you Fog Badge Ampharos Noctowl. Pewter City Marill Slakoth Bronzong Rattata Treecko Cottonee.</p>
+                <p class="text-4xl">about me</p>
+                <p class="text-xl">Pokem ipsum dolor sit amet Exeggutor Kecleon Wing Attack Doduo Red Unown. Sunt in culpa Drilbur Calcium Hoenn Shieldon Wynaut Charizard. Growl Venonat Scolipede Espeon Charizard Barboach Hidden Machine. Duis aute irure dolor in reprehenderit in voluptate they're comfy and easy to wear Onix what kind of Pokemon are you Fog Badge Ampharos Noctowl. Pewter City Marill Slakoth Bronzong Rattata Treecko Cottonee.</p>
             </div>
             <div>
                 <img src="" alt="aimae doing x">
@@ -40,26 +41,26 @@
                 <img src="" alt="aimae doing z">
             </div>
         </section>
-        <section>
-            <h4>my projects</h4>
-            <div>
+        <section id="my-projects" class="bg-gray-300 rounded-3xl bg-opacity-50 p-5 mb-8">
+            <p class="text-4xl">my projects</p>
+            <div class="flex justify-between">
                 <div>
-                   <h5>project 1</h5>
+                   <p class="text-2xl text-center">project 1</p>
                    <img src="" alt="project 1 screenshot">
                 </div>
                 <div>
-                    <h5>project 2</h5>
+                    <p class="text-2xl text-center">project 2</p>
                     <img src="" alt="project 2 screenshot">
                 </div>
-                <div>
-                    <h5>project 3</h5>
+                <div class>
+                    <p class="text-2xl text-center">project 3</p>
                     <img src="" alt="project 3 screenshot">
                 </div>
             </div>
         </section>
-        <section>
-            <h4>contact</h4>
-            <div>
+        <section id="contact" class="bg-gray-300 rounded-3xl bg-opacity-50 p-5 mb-8">
+            <p class="text-4xl">contact</p>
+            <div class="flex justify-between">
                 <img src="" alt="github">
                 <img src="" alt="linkedin">
                 <p>aimaewood@gmail.com</p>
@@ -68,8 +69,9 @@
 
 
     </main>
-    <footer>
-        <p>coded by aimae wood using <a href="https://tailwindcss.com/">tailwind.css</a></p>
+    <footer class="bg-gray-300 bg-opacity-50 p-5">
+        <p class="text-md">coded by aimae wood using <a href="https://tailwindcss.com/">tailwind.css</a></p>
+        <p class="text-xs">Background image credit: NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team</p>
     </footer>
 </body>
 

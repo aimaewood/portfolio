@@ -16,33 +16,45 @@
 <body class="font-sans lowercase">
     <header>
         <nav class="w-screen h-14 fixed top-0 bg-indigo-300 bg-opacity-60">
-        <a href="#top"><img class="absolute inset-2 hover:opacity-50" src="assets/planet-saturn-space.png" width="50px" /></a>
+        <a href="#top"><img class="absolute inset-3/2 inset-x-2 pt-3 pb-3 hover:bg-indigo-300" src="assets/planet-saturn-space.png" width="40px" alt="home" /></a>
             <div class="absolute top-0 inset-x-1/2 flex justify-center items-center">
-            <p class="p-3 text-xl hover:bg-indigo-300"><a href="#about-me">about</a></p>
-            <p class="p-3 text-xl hover:bg-indigo-300"><a href="#my-projects">projects</a></p>
-            <p class="p-3 text-xl hover:bg-indigo-300"><a href="#contact">contact</a></p>
+            <p class="pt-4 pl-3 pb-3 pr-3 text-lg hover:bg-indigo-300"><a href="#about-me">about</a></p>
+            <p class="pt-4 pl-3 pb-3 pr-3 text-lg hover:bg-indigo-300"><a href="#my-projects">projects</a></p>
+            <p class="pt-4 pl-3 pb-3 pr-3 text-lg hover:bg-indigo-300"><a href="#contact">contact</a></p>
+            </div>
         </nav>
     </header>
     <main>
         <p id="top">.</p>
         <section class="bg-indigo-300 flex justify-evenly items-center mt-40 bg-opacity-30">
             <div>
-                <img class="rounded-full" src="assets/awood.jpg" height="300" width="300" alt="photo of aimae">
+                <img class="rounded-full border-2 border-indigo-300" src="assets/awood.jpg" height="300" width="300" alt="photo of aimae">
             </div>
             <div class="text-right font-bold"> <!-- class="bg-gray-300 rounded-3xl opacity-60 p-5"> -->
                 <p class="text-9xl">Aimae Wood</p>
                 <p class="text-6xl">Frontend Developer</p>
             </div>
         </section>
-        <section id="about-me" class="bg-black bg-opacity-90 text-gray-300 p-28 flex mt-36">
-            <div>
-                <p class="text-6xl">hello!✨</p>
-                <p class="text-base">Pokem ipsum dolor sit amet Exeggutor Kecleon Wing Attack Doduo Red Unown. Sunt in culpa Drilbur Calcium Hoenn Shieldon Wynaut Charizard. Growl Venonat Scolipede Espeon Charizard Barboach Hidden Machine. Duis aute irure dolor in reprehenderit in voluptate they're comfy and easy to wear Onix what kind of Pokemon are you Fog Badge Ampharos Noctowl. Pewter City Marill Slakoth Bronzong Rattata Treecko Cottonee. Pokem ipsum dolor sit amet Exeggutor Kecleon Wing Attack Doduo Red Unown. Sunt in culpa Drilbur Calcium Hoenn Shieldon Wynaut Charizard. Growl Venonat Scolipede Espeon Charizard Barboach Hidden Machine. Duis aute irure dolor in reprehenderit in voluptate they're comfy and easy to wear Onix what kind of Pokemon are you Fog Badge Ampharos Noctowl. Pewter City Marill Slakoth Bronzong Rattata Treecko Cottonee.</p>
-            </div>
-            <div>
-                <img src="" alt="aimae doing x">
-                <img src="" alt="aimae doing y">
-                <img src="" alt="aimae doing z">
+        <section id="about-me" class="bg-black bg-opacity-90 text-gray-300 p-28 mt-36">
+                <p class="text-6xl mb-6">hello!✨</p>
+            <div class="flex flex-row justify-between items-stretch">
+                <div class="text-base mr-40 w-3/5">
+                    <p class="mb-6">I’m Aimae, a web developer based in Bristol, UK. I recently graduated from a three-month skills bootcamp hosted by the University of Bath and am excited to land my first role in the tech industry. </p>I’ve coded projects using html-5, css and javascript; you can check out some of my work below.
+                    <p class="mb-6">My background is in astrophysics and science communication, so I’m equally at home handling large data-sets or developing interpersonal relationships.  As a natural problem solver I can’t wait to work alongside and learn from other enthusiastic devs; I’m especially keen to apply my skills to elegant code solutions in javascript.</p>
+                    <p class="mb-6">A creative at heart (with an embarrassing collection of crafting skills under my belt), I’ve really enjoyed getting to grips with css frameworks such as Tailwind, and am also looking forward to working with designers to build beautiful products. </p>
+                    <p class="mb-6">Away from the keyboard I’m a hiker, crafter and aerial circus artist with a penchant for trying new activities. Ask me about my circus training if you’d like to get a sense of my motivation and determination!</p>
+                    <p class="mb-6">Empathy, creativity, and equity are values I consider important; if you think I could be the dev you’re looking for, please get in touch and let’s chat 😊</p>
+                </div>
+                <div> <!-- class="flex flex-col w-2/5"> -->
+               <!--
+                <img class="absolute z-1 rounded-full border-2 border-indigo-300 transform -translate-y-8" src="assets/square-lecture.png" alt="aimae lecturing">
+                <img class="absolute z-2 rounded-full border-2 border-indigo-300 transform -translate-y-4" src="assets/square-lecture.png" alt="aimae presenting">
+                <img class="absolute z-3 rounded-full border-2 border-indigo-300" src="assets/square-lecture.png" alt="aimae doing circus">
+                -->
+                    <div class="lecture absolute z-1 transform -translate-x-60 rounded-full h-52 w-52 border-2 border-indigo-300"></div>
+                    <div class="plano absolute z-2 transform -translate-x-60 translate-y-40 rounded-full h-52 w-52 border-2 border-indigo-300"></div>
+                    <div class="hoop absolute z-3 transform -translate-x-60 translate-y-80 rounded-full h-52 w-52 border-2 border-indigo-300"></div>
+                </div>
             </div>
         </section>
         <section id="my-projects" class="bg-indigo-300 p-28 mt-40 bg-opacity-50">
@@ -50,15 +62,15 @@
             <div class="flex justify-between">
                 <div class="p-2">
                    <p class="text-lg text-center">responsive time tracker</p>
-                   <img class="rounded-2xl border-black border-4 hover:border-indigo-300" src="assets/ss-timetracker.png" alt="project 1 screenshot">
+                   <div class="project-1 rounded-full h-80 w-80 border-2 border-indigo-300 hover:border-black"></div>
                 </div>
                 <div class="p-2">
                     <p class="text-lg text-center">animations and transitions</p>
-                    <img class="rounded-2xl border-black border-4 hover:border-indigo-300" src="assets/ss-animations.png" alt="project 2 screenshot">
+                    <div class="project-2 rounded-full h-80 w-80 border-2 border-indigo-300 hover:border-black"></div>
                 </div>
                 <div class="p-2">
                     <p class="text-lg text-center">nes.css animated dialogue</p>
-                    <img class="rounded-2xl border-black border-4 hover:border-indigo-300" src="assets/ss-nes.png" alt="project 3 screenshot">
+                    <div class="project-3 rounded-full h-80 w-80 border-2 border-indigo-300 hover:border-black"></div>
                 </div>
             </div>
         </section>

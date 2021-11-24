@@ -21,11 +21,11 @@ body {
     background-size: contain;
 }
 .project-1 {
-    background-image: url("assets/ss-timetracker.png");
+    background-image: url("assets/ss-animate.png");
     background-size: cover;
 }
 .project-2 {
-    background-image: url("assets/ss-animations.png");
+    background-image: url("assets/ss-tracker.png");
     background-size: cover;
 }
 .project-3 {

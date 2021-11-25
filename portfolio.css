@@ -32,3 +32,9 @@ body {
     background-image: url("assets/ss-nes.png");
     background-size: cover;
 }
+.centre {
+           position: fixed;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+       }

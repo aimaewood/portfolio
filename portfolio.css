@@ -1,0 +1,34 @@
+* {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+body {
+    background-image: url("assets/heic1509a.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lecture {
+    background-image: url("assets/square-lecture.png");
+    background-size: contain;
+}
+.plano {
+    background-image: url("assets/square-plano.png");
+    background-size: contain;
+}
+.hoop {
+    background-image: url("assets/square-hoop.jpg");
+    background-size: contain;
+}
+.project-1 {
+    background-image: url("assets/ss-animate.png");
+    background-size: cover;
+}
+.project-2 {
+    background-image: url("assets/ss-tracker.png");
+    background-size: cover;
+}
+.project-3 {
+    background-image: url("assets/ss-nes.png");
+    background-size: cover;
+}
